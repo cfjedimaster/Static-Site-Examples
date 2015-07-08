@@ -1,0 +1,16 @@
+<h1>Welcome to the Blog</h1>
+
+
+<%- partial("_article_parser") %>
+
+<h3>Articles</h3>
+<ul>
+<% 
+for(var i=0;i<Math.min(5, articles.length);i++) { 
+	article = articles[i];
+%>
+
+	<li><a href="<%= article.path %>"><%= article.title %></a> - posted <%= article.posted %></li>
+
+<% } %>
+</ul>

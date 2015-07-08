@@ -1,0 +1,28 @@
+<%
+var articlesRaw = public._data.articles;
+
+//This create a variable templates can use to iterate over articles
+articles = articlesRaw.sort(function(a, b) {
+	var aDate = new Date(a.posted);
+	var bDate = new Date(b.posted);
+	return aDate < bDate;
+});
+
+//This sniffs to see if we are on an article, and if so, overwrites globals
+pageTitle = title;
+isArticle = false;
+if(current.path.length === 5) {
+	isArticle = true;
+	//http://davidwalsh.name/javascript-clone-array
+	var path = current.path.slice(0);
+	path.pop();		
+	var testPath = path.join("/");
+	for(var i=0;i<articles.length;i++) {
+		if(articles[i].path === testPath) {
+			pageTitle = articles[i].title;
+		}
+	}
+}
+
+%>
+

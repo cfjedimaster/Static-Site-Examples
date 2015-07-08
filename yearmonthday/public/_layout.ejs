@@ -1,0 +1,21 @@
+<% partial("_article_parser") %>
+  
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= pageTitle %></title>
+  <link rel="stylesheet" href="/main.css">
+</head>
+
+<body>
+
+  <% if(isArticle) { %>
+     <%- partial("_article_layout") %>
+  <% } else { %>
+    <%- yield %>
+  <% } %>
+    
+  <footer><p>Copyright &copy; <%= new Date().getFullYear() %> ~ <a href="/">Home</a></p></footer>  
+
+</body>
+</html>

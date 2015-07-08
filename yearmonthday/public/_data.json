@@ -1,0 +1,55 @@
+{
+	"articles":[
+		{
+			"title":"Why I like goo",
+			"posted":"2014-07-11 10:30 AM",
+			"path":"2014/07/11/an-article-about-goo"
+		},
+		{
+			"title":"Lorem Ipsum",
+			"posted":"2014-09-13 1:20 PM",
+			"path":"2014/09/13/lorem-ipsum"
+		},
+		{
+			"title":"Star Wars",
+			"posted":"2014-09-20 5:40 PM",
+			"path":"2014/09/20/star-wars"
+		},
+		{
+			"title":"November is Adoption Month",
+			"posted":"2014-11-01 8:13 AM",
+			"path":"2014/11/01/november-is-adoption-month"
+		},
+		{
+			"title":"Another thing on Foo",
+			"posted":"2014-11-28 11:50 AM",
+			"path":"2014/07/02/an-article-about-foo"
+		},
+		{
+			"title":"Foo is good",
+			"posted":"2015-02-08 2:30 PM",
+			"path":"2015/02/08/an-article-about-foo"
+		},
+		{
+			"title":"No More Foo!",
+			"posted":"2015-02-15 2:30 PM",
+			"path":"2015/02/15/an-article-about-foo"
+		},
+		{
+			"title":"This is not about Foo",
+			"posted":"2015-03-13 4:12 PM",
+			"path":"2015/03/13/an-article-about-foo"
+		},
+		{
+			"title":"Foo is dead",
+			"posted":"2015-03-20 9:59 PM",
+			"path":"2015/03/20/an-article-about-foo"
+		},
+		{
+			"title":"An article about Foo!",
+			"posted":"2014-07-02 9:49 AM",
+			"path":"2014/07/02/an-article-about-foo"
+		}
+
+	]
+}
